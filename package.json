@@ -15,11 +15,5 @@
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
     "ytdl-core": "^0.7.17"
-  },
-  "image": "heroku/nodejs",
-  "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
-  ]
+  }
 }
