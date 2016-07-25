@@ -13,6 +13,15 @@ all parameters are required.
 
 the response is an mp3
 
+environment variables
+---
+
+| Name                  | Description    | Required |
+|-----------------------|----------------|----------|
+| AWS_ACCESS_KEY_ID     | AWS Access Key | ✔        |
+| AWS_SECRET_ACCESS_KEY | AWS Secret     | ✔        |
+| BUCKET                | S3 Bucket      |          |
+
 license
 ---
 
