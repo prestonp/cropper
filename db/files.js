@@ -12,3 +12,7 @@ exports.updateProgress = function(id, loaded, total, callback) {
 exports.updateFinished = function(id, url, etag, key, callback) {
   query.first('UPDATE files SET url=$1, etag=$2, key=$3 WHERE id=$4', [url, etag, key, id], callback);
 }
+
+exports.get = function(id, callback) {
+  query.first('SELECT * FROM files where id = $1', [id], callback);
+}
