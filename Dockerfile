@@ -1,4 +1,4 @@
-FROM node:4-onbuild
+FROM node:argon
 
 RUN mkdir /src
 WORKDIR /src
